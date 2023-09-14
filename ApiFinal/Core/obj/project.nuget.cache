@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gT4rse1/NZflEECezVlgKQCdyHfEYAmOYg/jvE02DUnBxI4XeRa/zi0ciSJTdbvXGABH6wGUHB2VTdzwjEKwsg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saruk\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\saruk\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\saruk\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
