@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\ApiFinal\\ApiFinal\\ApiFinal.csproj": {}
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part1\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\ApiFinal\\ApiFinal\\ApiFinal.csproj": {
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part1\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
+        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part1\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
         "projectName": "ApiFinal",
-        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
+        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part1\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
         "packagesPath": "C:\\Users\\saruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\ApiFinal\\ApiFinal\\obj\\",
+        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part1\\angDot\\ApiFinal\\ApiFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
