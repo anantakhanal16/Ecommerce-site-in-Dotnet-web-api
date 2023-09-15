@@ -28,5 +28,15 @@ namespace ApiFinal.Controllers
         {
             return await _repo.GetProductByIdAsync(id);
         }
+        [HttpGet("brands")]
+        public async Task<ActionResult<ProductBrand>> GetProductsBrands()
+        {
+            return Ok( await _repo.GetProductBrandsAsync());
+        }
+        [HttpGet("types")]
+        public async Task<ActionResult<ProductType>> GetProductsTypes()
+        {
+            return Ok(await _repo.GetProductTypesAsync());
+        }
     }
 }

@@ -37,19 +37,23 @@ app.MapControllers();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var logger = services.GetRequiredService<ILogger<Program>>();
+    var loggerFactory = services.GetRequiredService<ILoggerFactory>();
 
     try
     {
         // Get the database context
-        var dbContext = services.GetRequiredService<StoreContext>();
+        var context = services.GetRequiredService<StoreContext>();
 
         // Apply pending migrations and create the database if it doesn't exist
-        dbContext.Database.Migrate();
+        context.Database.Migrate();
+        //dataseeding 
+        await StoreContextSeed.SeedAsync(context, loggerFactory);
     }
     catch (Exception ex)
     {
         // Handle any exceptions, log them, etc.
-        var logger = services.GetRequiredService<ILogger<Program>>();
+       
         logger.LogError(ex, "An error occurred while applying migrations or creating the database.");
     }
 }
