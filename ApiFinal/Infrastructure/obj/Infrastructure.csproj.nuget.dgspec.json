@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\Core.csproj": {
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj",
         "packagesPath": "C:\\Users\\saruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\obj\\",
+        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,42 +49,27 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\saruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +90,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part2\\angDot\\ApiFinal\\Core\\Core.csproj"
+              "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj": {
+                "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj"
               }
             }
           }
@@ -140,31 +125,16 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.21, 6.0.21]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
