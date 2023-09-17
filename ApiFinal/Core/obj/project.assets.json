@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\Core.csproj",
+      "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\core\\Core.csproj",
       "packagesPath": "C:\\Users\\saruk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\core\\obj\\",
+      "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

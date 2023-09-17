@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wb/NrkFBx1scTqyMIzkzR+uSK66FwV5zztlreHD1q1c0xfK1b8/a+yCyvrm78YNW+D40/zC9zL6ilXnhbH5QmQ==",
+  "dgSpecHash": "UyBvu4bz/rPKgQ8x9BOMJ1clivmg7dFtfMlVDI5SGPnmYt7qS9LRK+/H06ARGFJ0cZMJwodHZ9hCZMONatP7AQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
+  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saruk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.10\\microsoft.data.sqlite.core.7.0.10.nupkg.sha512",

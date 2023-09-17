@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/G8OgzvhPfwuePMScUkwMLs+C4CA3uHzx5JRkrseqIft6JZOuDQX1gj+N6Xc+QIA+YViXMq/Zx8rSbn38j6VA==",
+  "dgSpecHash": "n0Yh68WFWset9c2zgbDuga+dfeQ8PWnAanIdxkuKaojvh27C/G1diCLCmKGboi8qnak57I0dv/oP6tsNKw0qMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.10\\microsoft.data.sqlite.core.7.0.10.nupkg.sha512",
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",

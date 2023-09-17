@@ -1510,11 +1510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
+      "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
       "projectName": "ApiFinal",
-      "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
+      "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
       "packagesPath": "C:\\Users\\saruk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\ApiFinal\\obj\\",
+      "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\ApiFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1535,11 +1535,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Core\\Core.csproj"
+            "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\Core\\Core.csproj"
             },
-            "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 3\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
