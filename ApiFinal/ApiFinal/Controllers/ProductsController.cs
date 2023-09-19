@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Core.Interfaces;
 using Core.Specifications;
+using ApiFinal.Dtos;
+using AutoMapper;
 
 namespace ApiFinal.Controllers
 {
@@ -15,30 +17,40 @@ namespace ApiFinal.Controllers
         private readonly IGenericRepository<ProductBrand> _productBrandRepo;
         private readonly IGenericRepository<ProductType> _productTypeRepo;
 
+        private readonly IMapper _mapper;
         public ProductsController(
           IGenericRepository<Product> productsRepo,
           IGenericRepository<ProductBrand> productBrandRepo,
-          IGenericRepository<ProductType> productTypeRepo) 
+          IGenericRepository<ProductType> productTypeRepo,
+          IMapper mapper
+          ) 
         {
             _productsRepo = productsRepo;
             _productBrandRepo= productBrandRepo;
             _productTypeRepo = productTypeRepo;
+            _mapper = mapper;
         }
         
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductsToReturnDto>>> GetProducts()
         {
            var spec = new  ProductsWithTypesSpecification();
           
-           var products = await _productsRepo.ListAsync(spec);
-           return Ok(products);
+           var product = await _productsRepo.ListAsync(spec);
+
+            return Ok(_mapper.Map<IReadOnlyList<ProductsToReturnDto>>(product));
+         
             
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProducts(int id)
+        public async Task<ActionResult<ProductsToReturnDto>> GetProducts(int id)
         {
-            return await _productsRepo.GetByIdAsync(id);
+            var spec = new ProductsWithTypesSpecification(id);
+
+            var product = await _productsRepo.GetEntityWithSpec(spec);
+
+            return _mapper.Map<ProductsToReturnDto>(product);
         }
         [HttpGet("brands")]
         public async Task<ActionResult<ProductBrand>> GetProductsBrands()
