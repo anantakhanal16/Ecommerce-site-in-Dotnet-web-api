@@ -1,7 +1,5 @@
-﻿using Infrastructure.Data;
-using Core.Entities;
+﻿using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Core.Interfaces;
 using Core.Specifications;
 using ApiFinal.Dtos;
@@ -9,9 +7,8 @@ using AutoMapper;
 
 namespace ApiFinal.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductsController : ControllerBase
+   
+    public class ProductsController : BaseApiController
     {
         private readonly IGenericRepository<Product> _productsRepo;
         private readonly IGenericRepository<ProductBrand> _productBrandRepo;
