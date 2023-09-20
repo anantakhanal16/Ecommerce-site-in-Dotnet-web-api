@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XKYIMSG1EKMFMUAUcMOMreIiIlPu5NoeRDQSQIgWWiVeDzurH0vqKUltaQskqsi39+qDCFUaaYY41Ze5dfVX1Q==",
+  "dgSpecHash": "ywem41va504t3ZW+Fj48drQaizL8722qe4WYQqf0a0EyJ+HeOAnTnthkfEzkvNNV3ARLE+HNdb8+0Bq+uAQO+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 6\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
+  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 7\\angDot\\ApiFinal\\ApiFinal\\ApiFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saruk\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\saruk\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
