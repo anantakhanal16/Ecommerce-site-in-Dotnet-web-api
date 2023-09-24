@@ -22,7 +22,7 @@ namespace Infrastructure.Data
         }
         public async Task<IReadOnlyList<Product>> GetProductAsync()
         {
-            return await _context.Product
+                 return await _context.Product
                 .Include(p=>p.ProductType)
                 .Include(p=>p.ProductBrand)
                 .ToListAsync();
