@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 8\\angDot\\ApiFinal\\core\\Core.csproj": {}
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 8\\angDot\\ApiFinal\\core\\Core.csproj": {
+    "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 8\\angDot\\ApiFinal\\core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 8\\angDot\\ApiFinal\\core\\Core.csproj",
+        "projectPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\core\\Core.csproj",
         "packagesPath": "C:\\Users\\saruk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 8\\angDot\\ApiFinal\\core\\obj\\",
+        "outputPath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,7 +49,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

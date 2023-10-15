@@ -20,6 +20,17 @@ builder.Services.AddDbContext<StoreContext>(options =>
 });
 
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder =>
+        {
+            builder.WithOrigins("https://localhost:4200")
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
 app.UseMiddleware<ExceptionMiddleware>();
@@ -27,6 +38,7 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseStaticFiles();
+app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 app.UseSwaggerDocumentation();
 app.MapControllers();
@@ -37,7 +49,6 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     var logger = services.GetRequiredService<ILogger<Program>>();
     var loggerFactory = services.GetRequiredService<ILoggerFactory>();
-
     try
     {
         // Get the database context

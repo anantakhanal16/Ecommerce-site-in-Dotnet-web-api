@@ -5,6 +5,7 @@ using Core.Specifications;
 using ApiFinal.Dtos;
 using AutoMapper;
 using ApiFinal.Errors;
+using ApiFinal.Helpers;
 
 namespace ApiFinal.Controllers
 {
@@ -30,15 +31,29 @@ namespace ApiFinal.Controllers
         }
         
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductsToReturnDto>>> GetProducts(int? brandId, int? typeId ,string? sort)
+        public async Task<ActionResult<IReadOnlyList<Pagination<ProductsToReturnDto>>>> GetProducts([FromQuery] ProductsSpecParams productParams)
         {
-           var spec = new  ProductsWithTypesSpecification(sort,brandId,typeId);
-          
-           var product = await _productsRepo.ListAsync(spec);
+            try 
+            {
+                var spec = new ProductsWithTypesandBrandSpecification(productParams);
 
-            return Ok(_mapper.Map<IReadOnlyList<ProductsToReturnDto>>(product));
-         
-            
+                var product = await _productsRepo.ListAsync(spec);
+
+                var countSpec = new ProductsWithFilterForCountSpecification(productParams);
+                
+                var totalItems = await _productsRepo.CountAsync(countSpec);
+
+                var products = await _productsRepo.ListAsync(spec);
+
+                var data = _mapper.Map<IReadOnlyList<Product> ,IReadOnlyList<ProductsToReturnDto>>(products);
+
+                return Ok(new Pagination<ProductsToReturnDto>(productParams.PageIndex,productParams.PageSize,totalItems,data));
+
+            }
+            catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("{id}")]
@@ -46,7 +61,7 @@ namespace ApiFinal.Controllers
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ProductsToReturnDto>> GetProducts(int id)
         {
-            var spec = new ProductsWithTypesSpecification(id);
+            var spec = new ProductsWithTypesandBrandSpecification(id);
 
             var product = await _productsRepo.GetEntityWithSpec(spec);
 
