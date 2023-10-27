@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3MgTvihJ/R8GPtyiRXmhLh9kITx5/uMuoMeQSydrlUQUexSuQTswHAJN+Q7TS95rCM4blhqMm5xfAbJ0fNz9hA==",
+  "dgSpecHash": "C8dNIUQrmWSV2XKG9EcieXI46ojvr3AX0xShdjB0HnwhVsqB2XkS4bFLk5lxyHkCxchKjdBxx3ARcmwEOWNh+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\part 10 validations api\\angDot\\ApiFinal\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

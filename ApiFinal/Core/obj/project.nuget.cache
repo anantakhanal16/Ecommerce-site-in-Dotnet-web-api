@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1nHLo9MUzWM+igb4W0LsvZv2/1fHLeHkQOLoZdtv31ORjIAAVa7KvLB67oqTozq0zffYqb0TLTM4x4bZN5b2zg==",
+  "dgSpecHash": "ThttUV9rSp2pfYTJH4d5TNssPhS5bkTWfLKAK8itPnRRFhgGkt+AA27RVNDByrB9h6O+3PjdrPU0Uy3CDjf/Ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\Part 9 angular\\angDot\\ApiFinal\\core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\saruk\\Desktop\\Api ecommerce\\part 10 validations api\\angDot\\ApiFinal\\core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.0\\microsoft.aspnetcore.cryptography.internal.6.0.0.nupkg.sha512",
     "C:\\Users\\saruk\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.0\\microsoft.aspnetcore.cryptography.keyderivation.6.0.0.nupkg.sha512",

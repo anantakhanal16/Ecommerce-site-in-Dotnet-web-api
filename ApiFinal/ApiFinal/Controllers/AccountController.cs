@@ -93,11 +93,18 @@ namespace ApiFinal.Controllers
                 Token =_tokenService.CreateToken(user),
                 DisplayName = user.DisplayName
             };
-        }
+         }
        
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
+            if (CheckEmailAsync(registerDto.Email).Result.Value) 
+            {
+                return new BadRequestObjectResult(new ApiValidationErrorResponse { 
+                Errors = new[] { "Email address already in use"}
+                });
+            }
+
             var user = new AppUser 
             {
                 DisplayName = registerDto.DisplayName,
