@@ -105,3 +105,15 @@ C:\Users\saruk\Desktop\Api ecommerce\part 10 validations api\angDot\ApiFinal\cor
 C:\Users\saruk\Desktop\Api ecommerce\part 10 validations api\angDot\ApiFinal\core\obj\Debug\net6.0\refint\Core.dll
 C:\Users\saruk\Desktop\Api ecommerce\part 10 validations api\angDot\ApiFinal\core\obj\Debug\net6.0\Core.pdb
 C:\Users\saruk\Desktop\Api ecommerce\part 10 validations api\angDot\ApiFinal\core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\bin\Debug\net6.0\Core.deps.json
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\bin\Debug\net6.0\Core.dll
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\bin\Debug\net6.0\Core.pdb
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.dll
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\refint\Core.dll
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\Core.pdb
+C:\Users\saruk\Desktop\Api ecommerce\Part 11 orders\angDot\ApiFinal\core\obj\Debug\net6.0\ref\Core.dll

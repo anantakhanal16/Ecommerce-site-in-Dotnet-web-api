@@ -53,7 +53,5 @@ namespace Core.Specifications
 
             IsPagingEnabled = true;
         }
-
-
     }
 }

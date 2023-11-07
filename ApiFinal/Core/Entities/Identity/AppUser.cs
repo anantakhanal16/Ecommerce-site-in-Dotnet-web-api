@@ -5,7 +5,7 @@ namespace Core.Entities.Identity
 {
     public class AppUser :IdentityUser
     {
-        public Address address;
+       
 
         public string DisplayName { get; set; }
 

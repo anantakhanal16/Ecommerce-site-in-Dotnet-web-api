@@ -66,7 +66,7 @@ namespace ApiFinal.Controllers
         {
             var user = await _useManager.FindByUserbyClaimsPrincipleWithAddressAsync(HttpContext.User);
 
-            user.address =   _mapper.Map<AddressDto, Address>(address);
+            user.Address =   _mapper.Map<AddressDto, Address>(address);
 
             var result = await _useManager.UpdateAsync(user);
 

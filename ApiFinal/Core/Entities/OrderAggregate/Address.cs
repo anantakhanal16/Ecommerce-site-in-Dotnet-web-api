@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Core.Entities.OrderAggregate
+﻿namespace Core.Entities.OrderAggregate
 {
     public class Address
     {
@@ -12,12 +6,7 @@ namespace Core.Entities.OrderAggregate
         {
         }
 
-        public Address(string firstName, 
-            string lastName, 
-            string street,
-            string city,
-            string state, 
-            string zipCode)
+        public Address(string firstName, string lastName, string street, string city, string state, string zipCode)
         {
             FirstName = firstName;
             LastName = lastName;
